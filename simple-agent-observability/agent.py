@@ -135,7 +135,7 @@ Always cite your sources when using search results."""
     from strands.models import AnthropicModel
 
     model = AnthropicModel(
-        model_id="claude-3-haiku-20240307",
+        model_id="claude-3-5-haiku-latest",
         max_tokens=4096
     )
 
