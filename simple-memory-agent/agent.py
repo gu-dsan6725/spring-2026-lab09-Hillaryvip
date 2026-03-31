@@ -695,7 +695,7 @@ def _run_demo() -> None:
 
     # Conversation sequence demonstrating memory capabilities
     conversations = [
-        (
+   (
             "Hi! My name is Alice and I'm a software engineer specializing in Python.",
             "1. Introduction"
         ),
@@ -725,6 +725,7 @@ def _run_demo() -> None:
             "7. Recall previous context (should search memory)"
         ),
     ]
+
 
     for i, (user_msg, description) in enumerate(conversations, 1):
         print(f"\n{'─' * 70}")
